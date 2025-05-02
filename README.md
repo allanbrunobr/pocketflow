@@ -1,9 +1,17 @@
-# PocketFlow
+# PocketFlow - Adaptação WISP
 
 Um framework leve e poderoso para orquestração de fluxos de trabalho em agentes de IA.
 
 [![MIT License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
+
+## Nota Importante
+
+Este projeto é uma adaptação do framework PocketFlow originalmente desenvolvido por Zachary Huang e colaboradores. O código original pode ser encontrado em:
+
+- [GitHub Original: The-Pocket/PocketFlow](https://github.com/The-Pocket/PocketFlow)
+
+Nossa equipe adaptou o código para atender às necessidades específicas do projeto WISP, mantendo a essência do design original enquanto adicionamos funcionalidades específicas para nossa implementação.
 
 ## Índice
 
@@ -18,10 +26,12 @@ Um framework leve e poderoso para orquestração de fluxos de trabalho em agente
 - [Integração com Frameworks](#integração-com-frameworks)
 - [Casos de Uso](#casos-de-uso)
 - [Arquitetura](#arquitetura)
+- [Adaptações WISP](#adaptações-wisp)
 - [Roadmap](#roadmap)
 - [Contribuição](#contribuição)
 - [Testes](#testes)
 - [FAQ](#faq)
+- [Agradecimentos](#agradecimentos)
 - [Licença](#licença)
 
 ## Visão Geral
@@ -41,7 +51,7 @@ O PocketFlow é um framework para criar, orquestrar e executar fluxos de trabalh
 
 ## Instalação
 
-Para instalar o PocketFlow diretamente do GitHub:
+Para instalar nossa versão adaptada do PocketFlow diretamente do GitHub:
 
 ```bash
 pip install git+https://github.com/allanbrunobr/pocketflow.git
@@ -640,9 +650,18 @@ O PocketFlow é organizado nos seguintes módulos:
 
 Cada componente é projetado para funcionar de forma independente ou em conjunto com outros componentes, permitindo flexibilidade para diferentes casos de uso.
 
+## Adaptações WISP
+
+Nossa equipe fez as seguintes adaptações ao código original:
+
+- Integração com o ecossistema WISP
+- Otimizações para nossos casos de uso específicos
+- Implementação de conectores personalizados
+- Melhoria na implementação do protocolo A2A
+
 ## Roadmap
 
-Aqui estão os planos futuros para o desenvolvimento do PocketFlow:
+Aqui estão os planos futuros para o desenvolvimento da nossa versão do PocketFlow:
 
 - **Observabilidade**: Integração com ferramentas de monitoramento e logging
 - **Persistência de fluxos**: Salvar o estado de um fluxo para retomada posterior
@@ -755,10 +774,14 @@ flow_structure = flow.export_structure()
 **P: O PocketFlow suporta execução distribuída?**  
 R: O protocolo A2A permite coordenar fluxos entre diferentes instâncias ou serviços, oferecendo uma forma de execução distribuída.
 
+## Agradecimentos
+
+Gostaríamos de agradecer a Zachary Huang e toda a equipe original do PocketFlow pelo excelente trabalho que serviu como base para nossa implementação. Todas as contribuições originais são reconhecidas conforme a licença MIT original.
+
 ## Licença
 
-Este projeto está licenciado sob a licença MIT - veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+Este projeto mantém a licença MIT original - veja o arquivo [LICENSE](LICENSE) para mais detalhes.
 
 ---
 
-Desenvolvido pelo time WISP © 2025
+Adaptado pelo time WISP © 2025
