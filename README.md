@@ -761,4 +761,4 @@ Este projeto está licenciado sob a licença MIT - veja o arquivo [LICENSE](LICE
 
 ---
 
-Desenvolvido pelo time WISP © 2024
+Desenvolvido pelo time WISP © 2025
